@@ -1,7 +1,7 @@
 {
   "name": "convertmymoney",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert BRL to USD",
   "main": "index.js",
   "scripts": {
     "test": "jest",
