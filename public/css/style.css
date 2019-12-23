@@ -4,22 +4,13 @@ body {
 h1 img {
     width: 489px;
     margin-top: 20px;
-}
-input {
-    margin: 1px solid #000000;
-    background: #FDFDFD;
-    font-size: 20px;
-    padding: 10px;
-    margin: 4px;
-}
-button {
-    border: 1px solid #000000;
-    background: #D8D8D8;
-    font-size: 20px;
-    padding: 10px;
+    margin-bottom: 50px;
 }
 .result {
     padding: 10px;
     border: 1px solid #d8d8d8;
     background: #fdfdfd;
+}
+.result span {
+    font-weight: bolder;
 }
