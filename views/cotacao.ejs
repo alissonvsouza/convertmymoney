@@ -3,9 +3,9 @@
     <% if (error) { %>
         <%= error %>
     <% } else { %>
-        <%= quantidade %> dólares
-        na cotação <%= cotacao %> 
-        é igual a <%= conversao %> reais
+        $<%= quantidade %> dólares
+        na cotação R$<%= cotacao %> 
+        é igual a <span>R$<%= conversao %> reais</span>
     <% } %>
 </div>
 <%- include('footer') %>
