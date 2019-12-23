@@ -1,4 +1,19 @@
     </body>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="/js/validate.js"></script>
+    <script>
+        $(function() {
+            $('#formulario-cotacao').submit(function(e) {
+                const cotacao = $('input[name="cotacao"]').val()
+                const quantidade = $('input[name="quantidade"]').val()
+
+                if(!cotacao || cotacao <= 0) {
+                    alert('Informe o valor de cotação')
+                    e.preventDefault()
+                } else if (!quantidade || quantidade <= 0) {
+                    alert('Informe a quantidade')
+                    e.preventDefault()
+                }
+            })
+        })
+    </script>
 </html>
