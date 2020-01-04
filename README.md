@@ -4,21 +4,22 @@ Convert USD to BRL
 
 ## Installation
 
-yarn install
-yarn start
+
+> yarn install <br>
+> yarn start
 
 or
 
-npm install
-npm start
+> npm install <br>
+> npm start
 
 ## Tests
 
-yarn test
+> yarn test
 
 or
 
-npm test
+> npm test
 
 ## Demo
 
